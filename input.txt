@@ -1,6 +1,6 @@
 ! Input file
-Charzykowskie	 	! name of the lake, river, ... 
-charzykowskie 	 	! name/ID of the air station 
+Studzieniczne	 	! name of the lake, river, ... 
+studzieniczne 	 	! name/ID of the air station 
 sat 	 		! name/ID of the water station 
 c 				! type of series: c=continuous, m=mean year 
 1d 				! time resolution: 1d=daily, nw=n weeks (n=1,2,...), 1m=monthly 
