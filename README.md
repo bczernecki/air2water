@@ -10,6 +10,6 @@ Input parameters established with the provided Matlab code according to the mean
 
 Below some diagnostic plots obtained with the code included in the file verify.R:
 
-![Lake Hancza - Calibration - (1972-2000) - looks good](hancza_calibration.png)
-![Lake Hancza - Validation - (2001-2015) - almost no skill](hancza_validation.png)
+[Lake Hancza - Calibration - (1972-2000) - looks good](hancza_calibration.png)
+[Lake Hancza - Validation - (2001-2015) - almost no skill](hancza_validation.png)
 
