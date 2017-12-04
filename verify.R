@@ -24,7 +24,14 @@ plot(verify(obs = summary_mth_val$temp_j_obs, pred = summary_mth_val$temp_j_air2
              obs.type = "cont"), main="Conditional Quantile Plot - validation period\nHancza Lake")
 dev.off()
 
- 
+
+library(hydroGOF)
+verify(obs = summary_mth_val$temp_j_obs, pred = summary_mth_val$temp_j_air2water, frcst.type = "cont",obs.type = "cont")[1:5]
+verify(obs = summary_mth_cal$temp_j_obs, pred = summary_mth_cal$temp_j_air2water, frcst.type = "cont",obs.type = "cont")[1:5]
+library(plotrix)
+taylor.diagram(ref = summary_mth_val$temp_j_obs, model =  summary_mth_val$temp_j_air2water)
+taylor.diagram(ref = summary_mth_cal$temp_j_obs, model =  summary_mth_cal$temp_j_air2water, add=T)
+cor(summary_mth_val$temp_j_obs, summary_mth_val$temp_j_air2water)
 ######################################################
 # everything below is not important for this case... #
 ######################################################
